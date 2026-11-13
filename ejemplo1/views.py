@@ -8,3 +8,6 @@ def estatica(request):
 # View 2
 def dinamica(request):
 	return render(request, "dinamica.html")
+# View 3
+def inicio(request):
+    return render(request, 'index.html')
